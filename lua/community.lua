@@ -12,5 +12,5 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.git.gitgraph-nvim" },
-  { import = "astrocommunity.completion.nvim-cmp" },
+  { import = "astrocommunity.completion.cmp-spell" },
 }
