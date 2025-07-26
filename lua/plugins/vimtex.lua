@@ -25,6 +25,8 @@ return {
     -- Define keymaps for common vimtex commands:
     local opts = { noremap = true }
 
+    vim.g.vimtex_syntax_enabled = 0
+
     -- You can change <leader> if you want, but by default it's "\"
     vim.api.nvim_set_keymap("n", "<leader>ll", ":VimtexCompile<CR>", opts)
     vim.api.nvim_set_keymap("n", "<leader>lv", ":VimtexView<CR>", opts)

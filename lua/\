@@ -15,5 +15,5 @@ return {
   { import = "astrocommunity.completion.cmp-spell" },
   { import = "astrocommunity.editing-support.conform-nvim" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
-  -- { import = "astrocommunity.lsp.coc-nvim" },
+  { import = "astrocommunity.lsp.actions-preview-nvim" },
 }

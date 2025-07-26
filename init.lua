@@ -26,3 +26,6 @@ end
 require "lazy_setup"
 require "polish"
 require "snippets"
+
+vim.opt.spell = true
+vim.cmd "set spell syntax=off"

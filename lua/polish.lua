@@ -1,5 +1,9 @@
-if true then return end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
--- This will run last in the setup process.
--- This is just pure lua so anything that doesn't
--- fit in the normal config locations above can go here
+-- require("nvim-treesitter.configs").setup {
+--   ensure_installed = { "markdown" },
+--   highlight = {
+--     enable = true,
+--     disable = { "latex" },
+--     additional_vim_regex_highlighting = { "latex", "markdown" },
+--   },
+--   --other treesitter settings
+-- }
