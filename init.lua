@@ -29,3 +29,5 @@ require "snippets"
 
 vim.opt.spell = true
 vim.cmd "set spell syntax=off"
+
+vim.cmd "set clipboard=unnamedplus"

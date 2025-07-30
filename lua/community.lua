@@ -15,5 +15,7 @@ return {
   { import = "astrocommunity.completion.cmp-spell" },
   { import = "astrocommunity.editing-support.conform-nvim" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
-  -- { import = "astrocommunity.lsp.coc-nvim" },
+  { import = "astrocommunity.editing-support.conform-nvim" },
+  { import = "astrocommunity.recipes.picker-nvchad-theme" },
+  { import = "astrocommunity.fuzzy-finder.snacks-picker" },
 }
