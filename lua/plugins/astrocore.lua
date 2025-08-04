@@ -71,7 +71,7 @@ return {
           desc = "Close buffer from tabline",
         },
 
-        ["<Leader>c"] = {
+        ["<Leader>z"] = {
           function()
             local bufs = vim.fn.getbufinfo { buflisted = true }
             require("astrocore.buffer").close(0)
@@ -84,7 +84,8 @@ return {
         -- ["<Leader>b"] = { desc = "Buffers" },
 
         -- setting a mapping to false will disable it
-        -- ["<C-S>"] = false,
+        ["<Leader>c"] = false,
+        ["<Leader>C"] = false,
       },
     },
   },
